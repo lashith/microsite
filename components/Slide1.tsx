@@ -39,7 +39,7 @@ export const Slide1 = ({
       >
         <button
           aria-label='Go to slide 2'
-          className='z-40 fixed bottom-2 left-1/2 right-1/2 -translate-x-1/2'
+          className='z-40 fixed bottom-min-3 bottom-0 left-1/2 right-1/2 -translate-x-1/2'
           onClick={() => setActive(2)}
         >
           <ChevronDown />

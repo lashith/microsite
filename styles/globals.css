@@ -34,6 +34,9 @@ a {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.bottom-min-3 {
+  margin-bottom: -3rem;
+}
 @keyframes text {
   0% {
     top: 40px;
