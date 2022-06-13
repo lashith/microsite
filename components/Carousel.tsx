@@ -78,6 +78,7 @@ export const Carousel = () => {
             },
           }}
           modules={[Navigation, Pagination]}
+          speed={1000}
           spaceBetween={10}
           onInit={setInstance}
           onSlideChange={(swipe) => {
