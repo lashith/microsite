@@ -44,7 +44,7 @@ const Home: NextPage = () => {
               key={i}
               aria-label='Go to  slide 1'
               onClick={() => setActive(i)}
-              className='h-9'
+              className='h-8'
             >
               <span
                 className={cx(
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                   {
                     "h-2 w-10 bg-black": active !== i && active === 1,
                     "h-2 w-10 bg-white": active !== i && active === 2,
-                    "bg-blue-500 h-3 w-20": active === i,
+                    "bg-blue-500 h-3 w-16": active === i,
                   }
                 )}
               >
